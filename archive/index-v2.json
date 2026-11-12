@@ -1,0 +1,20 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "My First F-Droid Archive Demo"
+    },
+    "description": {
+      "en-US": "These are the apps that have been archived from the main repo."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "88d53e5e62644a326b25ac2d8322b955e54d08efb821e3d066270f008234fbfd",
+        "size": 24354
+      }
+    },
+    "address": "https://hoanglt1223.github.io/open-camera-fdroid/archive",
+    "timestamp": 1794503845000
+  },
+  "packages": {}
+}

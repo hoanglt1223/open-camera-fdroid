@@ -1,0 +1,187 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "Open Camera F-Droid repo"
+    },
+    "description": {
+      "en-US": "Signed releases of Open Camera (dev.opencamera.app), the full build from https://github.com/hoanglt1223/open-camera. APKs are the upstream release binaries signed by the developer."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "88d53e5e62644a326b25ac2d8322b955e54d08efb821e3d066270f008234fbfd",
+        "size": 24354
+      }
+    },
+    "address": "https://hoanglt1223.github.io/open-camera-fdroid/repo",
+    "timestamp": 1794503851000,
+    "categories": {
+      "Multimedia": {
+        "name": {
+          "en-US": "Multimedia"
+        }
+      }
+    }
+  },
+  "packages": {
+    "dev.opencamera.app": {
+      "metadata": {
+        "added": 1794503770000,
+        "categories": [
+          "Multimedia"
+        ],
+        "changelog": "https://github.com/hoanglt1223/open-camera/releases",
+        "issueTracker": "https://github.com/hoanglt1223/open-camera/issues",
+        "lastUpdated": 1794503770000,
+        "license": "Apache-2.0",
+        "sourceCode": "https://github.com/hoanglt1223/open-camera",
+        "screenshots": {
+          "phone": {
+            "en-US": [
+              {
+                "name": "/dev.opencamera.app/en-US/phoneScreenshots/1.jpg",
+                "sha256": "a915d61753603cbf194ee946115186338cba6532260b197dab60b3a3adb14f40",
+                "size": 189574
+              },
+              {
+                "name": "/dev.opencamera.app/en-US/phoneScreenshots/2.jpg",
+                "sha256": "1c1fe9cbb7455104c414fbf776bb79a9fac35c4d7a0e7292064cfec72c541564",
+                "size": 206044
+              },
+              {
+                "name": "/dev.opencamera.app/en-US/phoneScreenshots/3.jpg",
+                "sha256": "67a7e34de2ce812b5ace88ebba9449209ad45b7685180e25c0d6bb8ee02f9622",
+                "size": 154345
+              }
+            ],
+            "vi": [
+              {
+                "name": "/dev.opencamera.app/vi/phoneScreenshots/1.jpg",
+                "sha256": "5b7422a3e92e31e01b8b059c4bd614e1632124a32104b04179c69428e4ca2823",
+                "size": 184539
+              },
+              {
+                "name": "/dev.opencamera.app/vi/phoneScreenshots/2.jpg",
+                "sha256": "000282513a0cf8363c458918e5c660c65671df7872a774b0461b43b6027cd852",
+                "size": 221807
+              },
+              {
+                "name": "/dev.opencamera.app/vi/phoneScreenshots/3.jpg",
+                "sha256": "f60e156f8f4384beaa33a9a21ba47bdcca425f98ec25339be1d89d54aae4c2ab",
+                "size": 157780
+              }
+            ]
+          }
+        },
+        "authorName": "Open Camera contributors",
+        "name": {
+          "en-US": "Open Camera",
+          "vi": "Open Camera"
+        },
+        "summary": {
+          "en-US": "Camera with multi-frame HDR, night mode, looks and manual controls",
+          "vi": "Máy ảnh có HDR nhiều khung, chế độ đêm, bộ màu và điều khiển thủ công"
+        },
+        "description": {
+          "en-US": "Open Camera is a camera app built on CameraX and Camera2. Photos are processed on the device.\n\n<b>Photo</b>\n<ul>\n<li>Multi-frame HDR and Night: several frames are aligned and merged on the device</li>\n<li>Astro mode for long exposures on a tripod</li>\n<li>Ultra HDR (JPEG_R) output on devices that support it</li>\n<li>Looks, frames and a photo editor with object removal</li>\n<li>Pro mode with manual ISO, shutter, focus and white balance, and RAW (DNG) capture</li>\n</ul>\n\n<b>Video and more</b>\n<ul>\n<li>Video modes, QR and barcode scanning</li>\n<li>Device profiles that pick the right lenses on each phone</li>\n</ul>\n\n<b>Privacy</b>\n<ul>\n<li>No network access by default. Optional models (for example object removal or denoise) are downloaded from the project's GitHub releases only after you confirm, and are checked against a SHA-256 hash.</li>\n<li>Crash reports stay on the device unless you share them yourself.</li>\n</ul>\n\nRAW decoding for camera-maker files uses LibRaw (LGPL-2.1) as a separate shared library.\n",
+          "vi": "Open Camera là ứng dụng máy ảnh dựng trên CameraX và Camera2. Ảnh được xử lý ngay trên máy.\n\n<b>Ảnh</b>\n<ul>\n<li>HDR và Đêm nhiều khung: nhiều khung hình được căn và ghép ngay trên máy</li>\n<li>Chế độ Thiên văn cho phơi sáng dài khi đặt máy trên chân máy</li>\n<li>Xuất Ultra HDR (JPEG_R) trên máy hỗ trợ</li>\n<li>Bộ màu, khung ảnh và trình sửa ảnh có xóa vật thể</li>\n<li>Chế độ Pro chỉnh tay ISO, tốc độ, lấy nét, cân bằng trắng và chụp RAW (DNG)</li>\n</ul>\n\n<b>Video và hơn nữa</b>\n<ul>\n<li>Các chế độ quay video, quét mã QR và mã vạch</li>\n<li>Hồ sơ thiết bị chọn đúng ống kính trên từng điện thoại</li>\n</ul>\n\n<b>Quyền riêng tư</b>\n<ul>\n<li>Mặc định không dùng mạng. Các model tùy chọn (ví dụ xóa vật thể, khử nhiễu) chỉ được tải từ trang phát hành GitHub của dự án sau khi bạn đồng ý, và được kiểm tra bằng mã băm SHA-256.</li>\n<li>Báo cáo lỗi chỉ nằm trên máy, trừ khi bạn tự chia sẻ.</li>\n</ul>\n\nPhần giải mã RAW của các hãng máy ảnh dùng LibRaw (LGPL-2.1) dưới dạng một thư viện chia sẻ riêng.\n"
+        },
+        "icon": {
+          "en-US": {
+            "name": "/dev.opencamera.app/en-US/icon_7p4WsosbrTXGlMZ-PlVlth2fZjYu-j7cIR4fICmaemY=.png",
+            "sha256": "ee9e16b28b1bad35c694c67e3e5565b61d9f66362efa3edc211e1f20299a7a66",
+            "size": 24040
+          }
+        },
+        "preferredSigner": "999623e2de4a85557102624929916dcd80126aaf2354697dc0406efd0a345902"
+      },
+      "versions": {
+        "c0beccf10f391abb5d7e13c134150ab85684978e87e9af08a9f11c82860ce1ee": {
+          "added": 1794503770000,
+          "file": {
+            "name": "/open-camera-0.1.0-beta2.apk",
+            "sha256": "c0beccf10f391abb5d7e13c134150ab85684978e87e9af08a9f11c82860ce1ee",
+            "size": 140482899
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.1.0-beta2",
+            "versionCode": 2,
+            "features": [
+              {
+                "name": "android.hardware.camera.any"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "999623e2de4a85557102624929916dcd80126aaf2354697dc0406efd0a345902"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_MEDIA_LOCATION"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "dev.opencamera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

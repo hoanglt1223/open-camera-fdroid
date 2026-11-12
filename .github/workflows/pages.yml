@@ -1,0 +1,43 @@
+# Deploys the locally signed index plus the release APKs to GitHub Pages.
+# APKs exceed git's 100 MB limit, so they are fetched from the upstream GitHub
+# release and checked against the SHA-256 recorded in the signed index.
+# No signing key is used here.
+name: pages
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and verify APKs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          for dir in repo archive; do
+            [ -f "$dir/index-v1.json" ] || continue
+            jq -r '.packages[][] | "\(.versionName) \(.apkName) \(.hash)"' "$dir/index-v1.json" |
+            while read -r version apk sha; do
+              gh release download "v$version" -R hoanglt1223/open-camera -p "$apk" -D "$dir"
+              echo "$sha  $dir/$apk" | sha256sum -c -
+            done
+          done
+          rm -f .gitignore
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@v4
