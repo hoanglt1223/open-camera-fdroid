@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1794589742000,
+    "timestamp": 1794626165000,
     "version": 20002,
     "name": "Open Camera F-Droid repo",
     "icon": "icon.png",
@@ -21,18 +21,18 @@
         "Multimedia"
       ],
       "changelog": "https://github.com/hoanglt1223/open-camera/releases",
-      "suggestedVersionName": "0.1.0-beta4",
-      "suggestedVersionCode": "4",
+      "suggestedVersionName": "0.1.0-beta5",
+      "suggestedVersionCode": "5",
       "issueTracker": "https://github.com/hoanglt1223/open-camera/issues",
       "license": "Apache-2.0",
       "sourceCode": "https://github.com/hoanglt1223/open-camera",
       "added": 1794503770000,
       "packageName": "dev.opencamera.app",
-      "lastUpdated": 1794589735000,
+      "lastUpdated": 1794626154000,
       "localized": {
         "en-US": {
           "description": "Open Camera is a camera app built on CameraX and Camera2. Photos are processed on the device.\n\n<b>Photo</b>\n<ul>\n<li>Multi-frame HDR and Night: several frames are aligned and merged on the device</li>\n<li>Astro mode for long exposures on a tripod</li>\n<li>Ultra HDR (JPEG_R) output on devices that support it</li>\n<li>Looks, frames and a photo editor with object removal</li>\n<li>Pro mode with manual ISO, shutter, focus and white balance, and RAW (DNG) capture</li>\n</ul>\n\n<b>Video and more</b>\n<ul>\n<li>Video modes, QR and barcode scanning</li>\n<li>Device profiles that pick the right lenses on each phone</li>\n</ul>\n\n<b>Privacy</b>\n<ul>\n<li>No network access by default. Optional models (for example object removal or denoise) are downloaded from the project's GitHub releases only after you confirm, and are checked against a SHA-256 hash.</li>\n<li>Crash reports stay on the device unless you share them yourself.</li>\n</ul>\n\nRAW decoding for camera-maker files uses LibRaw (LGPL-2.1) as a separate shared library.\n",
-          "icon": "icon_7p4WsosbrTXGlMZ-PlVlth2fZjYu-j7cIR4fICmaemY=.png",
+          "icon": "icon_r3x2CAwUNfeVXYrI15blXDy59_vgY3stNzNna9KAqfU=.png",
           "name": "Open Camera",
           "phoneScreenshots": [
             "1.jpg",
@@ -40,7 +40,7 @@
             "3.jpg"
           ],
           "summary": "Camera with multi-frame HDR, night mode, looks and manual controls",
-          "whatsNew": "- Log video with LUT preview and a .cube per clip.\n- Adjustable photographic styles, saved as editor presets.\n- Document mode: auto capture, offline OCR, searchable PDF (full build).\n- Smart timer (palm or smiles); headset and Bluetooth remote shutter.\n- Warning when a photo looks blurred or eyes are closed.\n- Fixed a crash when the camera permission is denied.\n"
+          "whatsNew": "- Steady preview: ZSL is turned off on cameras where it slowed the viewfinder to 8 fps.\n- Glass skin: static black bars and frosted capsules, no live preview copy behind controls.\n"
         },
         "vi": {
           "description": "Open Camera l\u00e0 \u1ee9ng d\u1ee5ng m\u00e1y \u1ea3nh d\u1ef1ng tr\u00ean CameraX v\u00e0 Camera2. \u1ea2nh \u0111\u01b0\u1ee3c x\u1eed l\u00fd ngay tr\u00ean m\u00e1y.\n\n<b>\u1ea2nh</b>\n<ul>\n<li>HDR v\u00e0 \u0110\u00eam nhi\u1ec1u khung: nhi\u1ec1u khung h\u00ecnh \u0111\u01b0\u1ee3c c\u0103n v\u00e0 gh\u00e9p ngay tr\u00ean m\u00e1y</li>\n<li>Ch\u1ebf \u0111\u1ed9 Thi\u00ean v\u0103n cho ph\u01a1i s\u00e1ng d\u00e0i khi \u0111\u1eb7t m\u00e1y tr\u00ean ch\u00e2n m\u00e1y</li>\n<li>Xu\u1ea5t Ultra HDR (JPEG_R) tr\u00ean m\u00e1y h\u1ed7 tr\u1ee3</li>\n<li>B\u1ed9 m\u00e0u, khung \u1ea3nh v\u00e0 tr\u00ecnh s\u1eeda \u1ea3nh c\u00f3 x\u00f3a v\u1eadt th\u1ec3</li>\n<li>Ch\u1ebf \u0111\u1ed9 Pro ch\u1ec9nh tay ISO, t\u1ed1c \u0111\u1ed9, l\u1ea5y n\u00e9t, c\u00e2n b\u1eb1ng tr\u1eafng v\u00e0 ch\u1ee5p RAW (DNG)</li>\n</ul>\n\n<b>Video v\u00e0 h\u01a1n n\u1eefa</b>\n<ul>\n<li>C\u00e1c ch\u1ebf \u0111\u1ed9 quay video, qu\u00e9t m\u00e3 QR v\u00e0 m\u00e3 v\u1ea1ch</li>\n<li>H\u1ed3 s\u01a1 thi\u1ebft b\u1ecb ch\u1ecdn \u0111\u00fang \u1ed1ng k\u00ednh tr\u00ean t\u1eebng \u0111i\u1ec7n tho\u1ea1i</li>\n</ul>\n\n<b>Quy\u1ec1n ri\u00eang t\u01b0</b>\n<ul>\n<li>M\u1eb7c \u0111\u1ecbnh kh\u00f4ng d\u00f9ng m\u1ea1ng. C\u00e1c model t\u00f9y ch\u1ecdn (v\u00ed d\u1ee5 x\u00f3a v\u1eadt th\u1ec3, kh\u1eed nhi\u1ec5u) ch\u1ec9 \u0111\u01b0\u1ee3c t\u1ea3i t\u1eeb trang ph\u00e1t h\u00e0nh GitHub c\u1ee7a d\u1ef1 \u00e1n sau khi b\u1ea1n \u0111\u1ed3ng \u00fd, v\u00e0 \u0111\u01b0\u1ee3c ki\u1ec3m tra b\u1eb1ng m\u00e3 b\u0103m SHA-256.</li>\n<li>B\u00e1o c\u00e1o l\u1ed7i ch\u1ec9 n\u1eb1m tr\u00ean m\u00e1y, tr\u1eeb khi b\u1ea1n t\u1ef1 chia s\u1ebb.</li>\n</ul>\n\nPh\u1ea7n gi\u1ea3i m\u00e3 RAW c\u1ee7a c\u00e1c h\u00e3ng m\u00e1y \u1ea3nh d\u00f9ng LibRaw (LGPL-2.1) d\u01b0\u1edbi d\u1ea1ng m\u1ed9t th\u01b0 vi\u1ec7n chia s\u1ebb ri\u00eang.\n",
@@ -50,14 +50,104 @@
             "2.jpg",
             "3.jpg"
           ],
-          "summary": "M\u00e1y \u1ea3nh c\u00f3 HDR nhi\u1ec1u khung, ch\u1ebf \u0111\u1ed9 \u0111\u00eam, b\u1ed9 m\u00e0u v\u00e0 \u0111i\u1ec1u khi\u1ec3n th\u1ee7 c\u00f4ng",
-          "whatsNew": "- Video Log c\u00f3 xem tr\u01b0\u1edbc LUT v\u00e0 file .cube cho m\u1ed7i clip.\n- Ki\u1ec3u \u1ea3nh ch\u1ec9nh \u0111\u01b0\u1ee3c, l\u01b0u th\u00e0nh preset ch\u1ec9nh \u1ea3nh.\n- T\u00e0i li\u1ec7u: t\u1ef1 ch\u1ee5p, OCR offline, PDF t\u00ecm \u0111\u01b0\u1ee3c ch\u1eef (b\u1ea3n \u0111\u1ea7y \u0111\u1ee7).\n- H\u1eb9n gi\u1edd th\u00f4ng minh (gi\u01a1 tay, c\u01b0\u1eddi); ch\u1ee5p b\u1eb1ng tai nghe, remote.\n- C\u1ea3nh b\u00e1o \u1ea3nh m\u1edd ho\u1eb7c nh\u1eafm m\u1eaft.\n- S\u1eeda crash khi t\u1eeb ch\u1ed1i quy\u1ec1n camera.\n"
+          "summary": "M\u00e1y \u1ea3nh c\u00f3 HDR nhi\u1ec1u khung, ch\u1ebf \u0111\u1ed9 \u0111\u00eam, b\u1ed9 m\u00e0u v\u00e0 \u0111i\u1ec1u khi\u1ec3n th\u1ee7 c\u00f4ng"
         }
       }
     }
   ],
   "packages": {
     "dev.opencamera.app": [
+      {
+        "added": 1794626154000,
+        "apkName": "open-camera-0.1.0-beta5.apk",
+        "features": [
+          "android.hardware.camera.any"
+        ],
+        "hash": "02b775a4bd0e05b3562dd3c4c1b1c17fe85bfb7112421344c6049bf0300f6d61",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "dev.opencamera.app",
+        "sig": "8bbcb07e618e31cd0da440a26512e37e",
+        "signer": "999623e2de4a85557102624929916dcd80126aaf2354697dc0406efd0a345902",
+        "size": 158460447,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.READ_MEDIA_IMAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_MEDIA_LOCATION",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "dev.opencamera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 5,
+        "versionName": "0.1.0-beta5"
+      },
       {
         "added": 1794589735000,
         "apkName": "open-camera-0.1.0-beta4.apk",
