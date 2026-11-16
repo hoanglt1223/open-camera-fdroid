@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1794794979000,
+    "timestamp": 1794799140000,
     "version": 20002,
     "name": "My First F-Droid Archive Demo",
     "icon": "icon.png",
@@ -21,14 +21,14 @@
         "Multimedia"
       ],
       "changelog": "https://github.com/hoanglt1223/open-camera/releases",
-      "suggestedVersionName": "0.1.0-beta6",
-      "suggestedVersionCode": "6",
+      "suggestedVersionName": "0.1.0-beta7",
+      "suggestedVersionCode": "7",
       "issueTracker": "https://github.com/hoanglt1223/open-camera/issues",
       "license": "Apache-2.0",
       "sourceCode": "https://github.com/hoanglt1223/open-camera",
       "added": 1794503770000,
       "packageName": "dev.opencamera.app",
-      "lastUpdated": 1794794979000,
+      "lastUpdated": 1794799140000,
       "localized": {
         "en-US": {
           "name": "Open Camera"
@@ -38,6 +38,97 @@
   ],
   "packages": {
     "dev.opencamera.app": [
+      {
+        "added": 1794589735000,
+        "apkName": "open-camera-0.1.0-beta4.apk",
+        "features": [
+          "android.hardware.camera.any"
+        ],
+        "hash": "0e01eb2cdc9805c7d69170fa398ebdf51050815aeda8f49f2eb23cbea1fc8980",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a"
+        ],
+        "packageName": "dev.opencamera.app",
+        "sig": "8bbcb07e618e31cd0da440a26512e37e",
+        "signer": "999623e2de4a85557102624929916dcd80126aaf2354697dc0406efd0a345902",
+        "size": 158476835,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.ACCESS_COARSE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.READ_MEDIA_IMAGES",
+            null
+          ],
+          [
+            "android.permission.ACCESS_MEDIA_LOCATION",
+            null
+          ],
+          [
+            "android.permission.RECORD_AUDIO",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            28
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "dev.opencamera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "0.1.0-beta4"
+      },
       {
         "added": 1794503770000,
         "apkName": "open-camera-0.1.0-beta2.apk",

@@ -14,7 +14,7 @@
       }
     },
     "address": "https://hoanglt1223.github.io/open-camera-fdroid/repo",
-    "timestamp": 1794794988000,
+    "timestamp": 1794799148000,
     "categories": {
       "Multimedia": {
         "name": {
@@ -32,7 +32,7 @@
         ],
         "changelog": "https://github.com/hoanglt1223/open-camera/releases",
         "issueTracker": "https://github.com/hoanglt1223/open-camera/issues",
-        "lastUpdated": 1794794979000,
+        "lastUpdated": 1794799140000,
         "license": "Apache-2.0",
         "sourceCode": "https://github.com/hoanglt1223/open-camera",
         "screenshots": {
@@ -96,6 +96,91 @@
         "preferredSigner": "999623e2de4a85557102624929916dcd80126aaf2354697dc0406efd0a345902"
       },
       "versions": {
+        "f2ee0fec419ded0e7854f2c90bd69e7a7b6d5d51896f96431aa49111528520fe": {
+          "added": 1794799140000,
+          "file": {
+            "name": "/open-camera-0.1.0-beta7.apk",
+            "sha256": "f2ee0fec419ded0e7854f2c90bd69e7a7b6d5d51896f96431aa49111528520fe",
+            "size": 158479427
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.1.0-beta7",
+            "versionCode": 7,
+            "features": [
+              {
+                "name": "android.hardware.camera.any"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "999623e2de4a85557102624929916dcd80126aaf2354697dc0406efd0a345902"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_MEDIA_LOCATION"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "dev.opencamera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "9e13142c88a5e2dd64b0282851d523a2e54b49bb4bec9fd16bab8538e741ed8b": {
           "added": 1794794979000,
           "file": {
@@ -195,91 +280,6 @@
             ],
             "versionName": "0.1.0-beta5",
             "versionCode": 5,
-            "features": [
-              {
-                "name": "android.hardware.camera.any"
-              }
-            ],
-            "usesSdk": {
-              "minSdkVersion": 26,
-              "targetSdkVersion": 36
-            },
-            "signer": {
-              "sha256": [
-                "999623e2de4a85557102624929916dcd80126aaf2354697dc0406efd0a345902"
-              ]
-            },
-            "usesPermission": [
-              {
-                "name": "android.permission.ACCESS_COARSE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_FINE_LOCATION"
-              },
-              {
-                "name": "android.permission.ACCESS_WIFI_STATE"
-              },
-              {
-                "name": "android.permission.CAMERA"
-              },
-              {
-                "name": "android.permission.READ_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.READ_MEDIA_IMAGES"
-              },
-              {
-                "name": "android.permission.ACCESS_MEDIA_LOCATION"
-              },
-              {
-                "name": "android.permission.RECORD_AUDIO"
-              },
-              {
-                "name": "android.permission.INTERNET"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
-              },
-              {
-                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING"
-              },
-              {
-                "name": "android.permission.POST_NOTIFICATIONS"
-              },
-              {
-                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
-                "maxSdkVersion": 28
-              },
-              {
-                "name": "android.permission.ACCESS_NETWORK_STATE"
-              },
-              {
-                "name": "android.permission.WAKE_LOCK"
-              },
-              {
-                "name": "dev.opencamera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-              }
-            ]
-          }
-        },
-        "0e01eb2cdc9805c7d69170fa398ebdf51050815aeda8f49f2eb23cbea1fc8980": {
-          "added": 1794589735000,
-          "file": {
-            "name": "/open-camera-0.1.0-beta4.apk",
-            "sha256": "0e01eb2cdc9805c7d69170fa398ebdf51050815aeda8f49f2eb23cbea1fc8980",
-            "size": 158476835
-          },
-          "manifest": {
-            "nativecode": [
-              "arm64-v8a",
-              "armeabi-v7a"
-            ],
-            "versionName": "0.1.0-beta4",
-            "versionCode": 4,
             "features": [
               {
                 "name": "android.hardware.camera.any"
