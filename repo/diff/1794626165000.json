@@ -1,0 +1,100 @@
+{
+  "repo": {
+    "timestamp": 1794794988000
+  },
+  "packages": {
+    "dev.opencamera.app": {
+      "metadata": {
+        "lastUpdated": 1794794979000
+      },
+      "versions": {
+        "c0beccf10f391abb5d7e13c134150ab85684978e87e9af08a9f11c82860ce1ee": null,
+        "9e13142c88a5e2dd64b0282851d523a2e54b49bb4bec9fd16bab8538e741ed8b": {
+          "added": 1794794979000,
+          "file": {
+            "name": "/open-camera-0.1.0-beta6.apk",
+            "sha256": "9e13142c88a5e2dd64b0282851d523a2e54b49bb4bec9fd16bab8538e741ed8b",
+            "size": 158479423
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a"
+            ],
+            "versionName": "0.1.0-beta6",
+            "versionCode": 6,
+            "features": [
+              {
+                "name": "android.hardware.camera.any"
+              }
+            ],
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 36
+            },
+            "signer": {
+              "sha256": [
+                "999623e2de4a85557102624929916dcd80126aaf2354697dc0406efd0a345902"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.ACCESS_COARSE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_FINE_LOCATION"
+              },
+              {
+                "name": "android.permission.ACCESS_WIFI_STATE"
+              },
+              {
+                "name": "android.permission.CAMERA"
+              },
+              {
+                "name": "android.permission.READ_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.READ_MEDIA_IMAGES"
+              },
+              {
+                "name": "android.permission.ACCESS_MEDIA_LOCATION"
+              },
+              {
+                "name": "android.permission.RECORD_AUDIO"
+              },
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_DATA_SYNC"
+              },
+              {
+                "name": "android.permission.FOREGROUND_SERVICE_MEDIA_PROCESSING"
+              },
+              {
+                "name": "android.permission.POST_NOTIFICATIONS"
+              },
+              {
+                "name": "android.permission.WRITE_EXTERNAL_STORAGE",
+                "maxSdkVersion": 28
+              },
+              {
+                "name": "android.permission.ACCESS_NETWORK_STATE"
+              },
+              {
+                "name": "android.permission.WAKE_LOCK"
+              },
+              {
+                "name": "dev.opencamera.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
